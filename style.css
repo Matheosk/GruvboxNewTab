@@ -7,7 +7,8 @@
 }
 
 html, body {
-  background: var(--color-bg);
+  background-image: radial-gradient(#3c3836 0.5px, #282828 0.5px);
+  background-size: 10px 10px;
   color: var(--color-fg);
   font-family: "Inconsolata", monospace;
   height: 100%;
@@ -38,6 +39,7 @@ html, body {
   background-color: #1d2021;
   padding-bottom: 30px;
   padding-left: 15px;
+  border-radius: 10px;
 }
 
 .image img {
