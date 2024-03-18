@@ -126,9 +126,12 @@ a:hover {
   color: var(--color-link-hover);
 }
 
-.nf {
-  color: #8ec07c;
-  font-size: 22px;
+.nf{
+  font-size: 18px;
+}
+
+li a .nf {
+  color: var(--color-link);
 }
 
 @keyframes opacity {
