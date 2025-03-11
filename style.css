@@ -57,7 +57,20 @@ html, body {
   padding-left: 24px;
   font-size: 16px;
   padding-top: 15px;
+}
 
+#blue {
+  color: #458588;
+}
+
+#arch {
+  background-color: #458588;
+  color: #1d2021;
+}
+
+#home {
+  color: #458588;
+  background-color: #282828;
 }
 
 .head2 {
@@ -133,6 +146,15 @@ a:hover {
 li a .nf {
   color: var(--color-link);
 }
+
+
+#background {
+  background-color: #3c3836;
+  color: #458588;
+}
+ #end {
+  color: #3c3c3c;
+ }
 
 @keyframes opacity {
   0% {
